@@ -1,0 +1,25 @@
+{
+  "general": {
+    "status": "test",
+    "data_url": "https://en.wikipedia.org/wiki/Iris_flower_data_set",
+    "data_dir": "data",
+    "models_dir": "models",
+    "results_dir": "output",
+    "logs_dir": "logs",
+    "decode_labels": "decode_labels",
+    "target_feature": "species",
+    "random_state": 0
+  },
+  "train": {
+    "csv_file": "train_iris.csv",
+    "batch_size": 10,
+    "hidden_layer_size": 48,
+    "test_size": 0.2,
+    "max_epochs": 30
+  },
+  "inference": {
+    "csv_file": "inference_iris.csv",
+    "results_file": "results.csv",
+    "model": "NNClassifier.pth"
+  }
+}
