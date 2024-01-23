@@ -1,0 +1,11 @@
+# Ignore logs, models, results, and pycache
+**/logs/
+**/models/
+**/results/
+**/__pycache__/
+
+# Ignore PyTorch Lightning logs
+**/lightning_logs/
+
+# Environment Variables
+.env
